@@ -5,12 +5,14 @@
  *
  * Return string using puts function
  *
- * Return: 0
+ * Return: Always 0 (success)
  */
 
-int main(void) 
+int main(void)
 {
 
-	puts("\"Programming is like building a multilingual puzzle");
+	char MyStr[] = "\"Programming is like building a multilingual puzzle";
+
+	puts(MyStr);
 		return (0);
 }
