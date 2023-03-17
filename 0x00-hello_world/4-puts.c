@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- * main -Entry point
+ * main
  *
  * Return string using puts function
- *
- * Return: Always 0 (success)
  */
 
 int main(void)
