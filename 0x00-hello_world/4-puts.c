@@ -1,7 +1,11 @@
 #include <stdio.h>
 
-/*
- *Print a message
+/**
+ * main -Entry point
+ *
+ * Return string using puts function
+ *
+ * Return: 0
  */
 
 int main(void) 
