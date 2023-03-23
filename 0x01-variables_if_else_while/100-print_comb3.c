@@ -14,24 +14,18 @@ int main(void)
 		{
 			if(i < j)
 			{
-				if(i == '0' && j == '1' )
-				{
-					goto etic;
-				}
-				putchar(' ');
-				etic:		
 				putchar(i);
 				putchar(j);
 				
-				if(i == '8')
+				if(i != '8')
 				{
+					putchar(',');
 					putchar(' ');
-					break;
 				}
 			
-				putchar(',');
 			}
 		}	
 	}
+	putchar('\n');
 	return (0);
 }
