@@ -14,8 +14,12 @@ int main(void)
 		{
 			if(i < j)
 			{
+				if(i == '0')
+				{
+					goto etic;
+				}
 				putchar(' ');
-					
+				etic:		
 				putchar(i);
 				putchar(j);
 				
