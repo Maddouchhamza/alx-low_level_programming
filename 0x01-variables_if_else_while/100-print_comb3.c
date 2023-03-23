@@ -14,7 +14,7 @@ int main(void)
 		{
 			if(i < j)
 			{
-				if(i == '0' || j == '1' )
+				if(i == '0' && j == '1' )
 				{
 					goto etic;
 				}
