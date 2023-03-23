@@ -14,6 +14,8 @@ int main(void)
 		{
 			if(i < j)
 			{
+				putchar(' ');
+					
 				putchar(i);
 				putchar(j);
 				
@@ -22,7 +24,6 @@ int main(void)
 					break;
 				}
 			
-				putchar(' ');
 				putchar(',');
 			}
 		}	
