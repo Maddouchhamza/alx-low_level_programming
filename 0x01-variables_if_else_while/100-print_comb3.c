@@ -7,15 +7,18 @@
 int main(void)
 {
 	int i,j;
-	char str[10]={'0','1','2','3','4','5','6','7','8','9'};	
-	
-	for(i=0;i<10;i++)
+		
+	for(i='0';i<='9';i++)
 	{
-		for (j=i+1;j<10;j++)
+		for (j='0';j<='9';j++)
 		{
-			putchar(str[i]);
-			putchar(str[j]);
-			putchar(',');
+			if(i<j)
+			{
+				putchar(i);
+				putchar(j);
+				putchar(',');
+			
+			}
 		}	
 	}
 	return (0);
