@@ -1,5 +1,5 @@
 #include "main.h"
-#include "11-print_to_98.c"
+
 /**
  * main - check the code
  *
