@@ -13,7 +13,7 @@ int main(void)
 	{
 		for (j = '0'; j <= '9'; j++)
 		{
-			for (k = '0';  k <= '9'; k++)
+			for (k = '0';  k <= '8'; k++)
 			{
 				for(m = '1'; m <= '9'; m++)
 				{
@@ -25,8 +25,11 @@ int main(void)
 						putchar(' ');
 						putchar(k);
 						putchar(m);
-						putchar(',');
-						putchar(' ');
+						if (i == '9' && j == '8' && k == '9' && m == '9')
+						{
+							putchar(',');
+							putchar(' ');
+						}
 					}
 				}
 			}
