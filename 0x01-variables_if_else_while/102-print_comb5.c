@@ -17,7 +17,7 @@ int main(void)
 			{
 				for(m = '1'; m <= '9'; m++)
 				{	
-					if (i <= k && j < m)
+					if (i <= k || j < m)
 					{
 						putchar(i);
 						putchar(j);
