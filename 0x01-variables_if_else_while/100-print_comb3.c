@@ -1,6 +1,7 @@
 #include<stdio.h>
 /*
- * main - combinations of two digits
+ * main - Start point: Combinations of two digits
+ *
  *
  * Return 0 always
  */
