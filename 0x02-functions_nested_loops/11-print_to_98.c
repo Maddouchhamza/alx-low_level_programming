@@ -2,25 +2,25 @@
 #include <stdio.h>
 /**
  * print_to_98 - prints all natural numbers from n to 98
- * @n : integer
+ * @n: integer
  *
- * Return: void
+ * Return: no return while its a void function
  */
 void print_to_98(int n)
 {
-	int i;
+	int j;
 
 	if (n <= 98)
 	{
-		for (i = n; i < 98; i++)
+		for (j = n; j < 98; j++)
 		{
-			printf("%d, ", i);
+			printf("%d, ", j);
 		}
 	}
 	else
 		if (n >= 98)
 		{
-			for (i = n; i > 98; i--)
+			for (j = n; j > 98; j--)
 			{
 				printf("%d, ", i);
 			}
