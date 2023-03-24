@@ -1,37 +1,27 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main - Start point
+ * main - Entry point
  *
  *
- * Return: always 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	int i, j, k, m;
+	int a, b;
 
-	for (i = '0'; i <= '9'; i++)
+	for (a = 0; a <= 98; a++)
 	{
-		for (j = '0'; j <= '8'; j++)
+		for (b = a + 1; b <= 99; b++)
 		{
-			for (k = '0';  k <= '9'; k++)
+			putchar((a / 10) + '0');
+			putchar((a % 10) + '0');
+			putchar(' ');
+			putchar((b / 10) + '0');
+			putchar((b % 10) + '0');
+			if (a != 98)
 			{
-				for(m = '1'; m <= '9'; m++)
-				{	
-					if (i <= k || j < m)
-					{
-						putchar(i);
-						putchar(j);
-						putchar(' ');
-						putchar(k);
-						putchar(m);
-						if (i == '9' && j == '8' && k == '9' && m == '9')
-						{
-							break;
-						}
-						putchar(',');
-						putchar(' ');
-					}
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
