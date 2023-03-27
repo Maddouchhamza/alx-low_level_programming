@@ -21,5 +21,4 @@ void rev_string(char *s)
 	{
 		*(s-i-2) = rev[i];
 	}
-	printf("\n");
 }
