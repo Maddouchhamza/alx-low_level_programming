@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
- * main - reset n to 98
- *@*n: integer
+ * reset_to_98 - reset n to 98
+ * @n: adresse of an integer
  *
  * Return: no return
  */
