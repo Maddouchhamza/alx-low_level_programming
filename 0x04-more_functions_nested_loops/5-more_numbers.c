@@ -7,19 +7,19 @@
  */
 void more_numbers(void)
 {
-	int i, j, quo, mod;
+	int i, j, q, m;
 
 	for (i = 0; i < 10; i++)
 	{
 		for (j = 0; j <= 14; j++)
 		{
-			quo = j / 10;
-			mod = j % 10;
+			q = j / 10;
+			m = j % 10;
 			if (j >= 10)
 			{
-				_putchar(quo + '0');
+				_putchar(q + '0');
 			}
-			_putchar(mod + '0');
+			_putchar(m + '0');
 		}
 		_putchar('\n');
 	}
