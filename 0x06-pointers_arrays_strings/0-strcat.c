@@ -4,7 +4,7 @@
  * @dest: adress of the first string
  * @src: adress of the second string
  *
- * Return: string contains the 2 first strings
+ * Return: char type returned
  */
 char *_strcat(char *dest, char *src)
 {
