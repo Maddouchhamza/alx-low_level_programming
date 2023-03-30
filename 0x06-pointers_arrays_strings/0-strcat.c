@@ -4,7 +4,7 @@
  * @dest: adress of the first string
  * @src: adress of the second string
  *
- * Return: a third string contains the é first strings
+ * Return: string contains the 2 first strings
  */
 char *_strcat(char *dest, char *src)
 {
