@@ -8,7 +8,7 @@ char *rot13(char *s)
 {
 	int i = 0;
 
-	while(s[i] != '\0')
+	while (s[i] != '\0')
 	{
 		while ((s[i] >= 65 && s[i] <= 90) || (s[i] >= 97 && s[i] <= 122))
 		{
@@ -16,7 +16,7 @@ char *rot13(char *s)
 			{
 				s[i] += 13;
 				break;
-			}	
+			}
 			s[i] -= 13;
 			break;
 		}
