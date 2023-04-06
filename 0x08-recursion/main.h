@@ -14,8 +14,6 @@ int is_prime_number(int n);
 
 int _putchar(char c);
 
-int check_prime(int n, int i);
-
 int is_palindrome(char *s);
 
 int srecursion(char *s);

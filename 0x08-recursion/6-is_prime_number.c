@@ -1,36 +1,36 @@
 #include "main.h"
 /**
- * is_prime_number - checks if number is prime of not
- * @n: number to check
- * @i: number of recursion
+ * is_prime_number - function that checks if @n is prime or not
+ * @n: integer to check
+ * @h: integer
  *
  * Return: 1 if prime, 0 otherwise
  */
-int check_prime(int n, int i);
+int diviseur(int n, int h);
 int is_prime_number(int n)
 {
 	if (n <= 1)
 	{
 		return (0);
 	}
-	return (check_prime(n, n - 1));
+	return (diviseur(n, n / 2));
 }
 /**
- * check_prime - checks if number is prime
- * @n: number to check
- * @i: number of recursions
+ * diviseur - function qui vérifie si n n'est divisible que par n et 1
+ * @n: integer to check
+ * @h: les diviseur
  *
- * Return: 1 if n prime, 0 otherwise
+ * Return: 1 if prime, 0 otherwise
  */
-int check_prime(int n, int i)
+int diviseur(int n, int h)
 {
-	if (i == 1)
+	if (h == 1)
 	{
 		return (1);
 	}
-	if (n % i == 0 && i > 0)
+	if (n % h == 0)
 	{
 		return (0);
 	}
-	return (check_prime(n, i - 1));
+	return (diviseur(n, h - 1));
 }
