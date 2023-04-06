@@ -2,7 +2,6 @@
 /**
  * is_palindrome - function that checks if a string is palindrome or not
  * @s: adress of a string
- * @i: integer
  *
  * Return: 1 if s is palindrome, 0 otherwise
  */
