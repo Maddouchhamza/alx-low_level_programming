@@ -2,7 +2,7 @@
 /**
  * _sqrt_recursion - function returns the natural square root of a number
  * @n: intger
- *
+ * @p: nombre a tester si son carre est parfait et egale a n
  * Return: sqrt of n
  */
 int carre_parfait(int n, int p);
