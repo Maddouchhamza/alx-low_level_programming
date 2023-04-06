@@ -18,7 +18,7 @@ int is_palindrome(char *s)
 }
 /**
  * length_palin - recursive function that return the length of s
- * @s: adress to a string
+ * @s: adress to a string 
  * 
  * Return: the length of s
  */
