@@ -9,6 +9,7 @@
  *
  * Return: 0 always
  */
+int isInteger(char *s);
 int main(int argc, char *argv[])
 {
 	int i, c = 0;
@@ -20,7 +21,7 @@ int main(int argc, char *argv[])
 	}
 	for (i = 1; i < argc; i++)
 	{
-		if (isdigit(*argv[i]) != 0)
+		if (isInteger(argv[i]))
 		{
 			c = c + atoi(argv[i]);
 		}
@@ -32,4 +33,25 @@ int main(int argc, char *argv[])
 	}
 	printf("%d\n", c);
 	return (0);
+}
+/**
+ * isInteger - check if its integer
+ * @s: string to check
+ *
+ * Return: 1 or 0
+ */
+int isInteger(char *s)
+{
+	unsigned int c = 0;
+
+	while (c < strlen(s))
+	{
+		if (!isdigit(s[c]))
+		{
+			return (0);
+		}
+		c++;
+	}
+	return (1);
+
 }
