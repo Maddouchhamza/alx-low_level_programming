@@ -20,6 +20,10 @@ char *_strdup(char *str)
 		i++;
 	}
 	C = malloc(sizeof(char) * i);
+	if (C == NULL)
+	{
+		return(NULL);
+	}
 	for (j = 0; j < i; j++)
 	{
 		C[j] = *str++;
