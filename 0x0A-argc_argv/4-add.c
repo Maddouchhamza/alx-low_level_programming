@@ -1,7 +1,8 @@
 #include<stdio.h>
-#include <ctype.h>
-#include <string.h>
+#include<ctype.h>
+#include<string.h>
 #include<stdlib.h>
+#include "main.h"
 /**
  * main - program that adds positive numbers
  * @argc: number of arguments in command line
@@ -9,7 +10,6 @@
  *
  * Return: 0 always
  */
-int isInteger(char *s);
 int main(int argc, char *argv[])
 {
 	int i, c = 0;
@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 }
 /**
  * isInteger - check if its integer
- * @s: string to check
+ * @s: string
  *
  * Return: 1 or 0
  */
