@@ -2,7 +2,7 @@
 /**
  * main - program that prints its name, followed by a new line
  * @argc: number of arguments in command line
- * @argv: string contains all arguments 
+ * @argv: string contains all arguments
  *
  * Return: 0 always
  */
