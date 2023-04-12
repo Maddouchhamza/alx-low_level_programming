@@ -48,5 +48,9 @@ end:
 	{
 		F = NULL;
 	}
+	else
+	{
+		F[k] = '\0';
+	}
 	return (F);
 }
