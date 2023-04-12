@@ -25,25 +25,15 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	if (s1 == NULL)
-	{
-		goto skip;
-	}
 	for (k = 0; k < i; k++)
 	{
 		F[k] = s1[k];
-	}
-skip:
-	if (s2 == NULL)
-	{
-		goto end;
 	}
 	for (m = 0; m < j; m++)
 	{
 		F[k] = s2[m];
 		k++;
 	}
-end:
 	F[k] = '\0';
 	return (F);
 }
