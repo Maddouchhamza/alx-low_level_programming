@@ -20,7 +20,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		j++;
 	}
-	F = malloc(sizeof(char) * (j + i));
+	F = malloc(sizeof(char) * (j + i + 1));
 	if (F == NULL)
 	{
 		return (NULL);
@@ -44,5 +44,9 @@ skip:
 		k++;
 	}
 end:
+	if (s1 == NULL && s2 == NULL)
+	{
+		F = NULL;
+	}
 	return (F);
 }
