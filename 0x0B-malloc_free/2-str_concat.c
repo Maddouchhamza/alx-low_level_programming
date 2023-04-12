@@ -29,10 +29,9 @@ char *str_concat(char *s1, char *s2)
 	{
 		F[k] = s1[k];
 	}
-	for (m = 0; m < j; m++)
+	for (m = 0; m < j; m++, k++)
 	{
 		F[k] = s2[m];
-		k++;
 	}
 	F[k] = '\0';
 	return (F);
