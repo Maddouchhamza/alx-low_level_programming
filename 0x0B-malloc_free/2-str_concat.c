@@ -44,13 +44,6 @@ skip:
 		k++;
 	}
 end:
-	if (s1 == NULL && s2 == NULL)
-	{
-		F = NULL;
-	}
-	else
-	{
-		F[k] = '\0';
-	}
+	F[k] = '\0';
 	return (F);
 }
