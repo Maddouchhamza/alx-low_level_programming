@@ -4,8 +4,9 @@
  * string_nconcat - function that concatenates two strings
  * @s1: first string
  * @s2: second one
- *
  * @n: unsigned integer
+ *
+ * Return: pointer to the result of concatenation (string)
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
