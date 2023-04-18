@@ -13,10 +13,13 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
+	if (d)
+	{
 		_malloc(d);
 		d->name = name;
 		d->age = age;
 		d->owner = owner;
+	}
 }
 /**
  * _malloc - allocates memory for a variable of type struct dog
