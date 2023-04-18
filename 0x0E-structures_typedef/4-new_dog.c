@@ -29,8 +29,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 	copyName = malloc(sizeof(char) * i);
 	copyOwner = malloc(sizeof(char) * j);
 	for (k = 0; k < i; k++)
-		copyName[i] = name[i];
+		copyName[k] = name[k];
 	for (l = 0; l < j; l++)
-		copyOwner[j] = owner[j];
+		copyOwner[l] = owner[l];
 	return (D);
 }
