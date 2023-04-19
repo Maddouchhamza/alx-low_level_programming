@@ -3,8 +3,8 @@
 #include <stdlib.h>
 /**
  * print_name - function that prints a name
- * @name: pointer to name
- * @f: function pointer
+ * @name : pointer to name
+ * @f : function pointer
  *
  * Return: no return
  */
