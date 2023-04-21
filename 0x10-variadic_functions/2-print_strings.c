@@ -28,6 +28,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			continue;
 		printf("%s", separator);
 	}
-	printf("\n");
 	va_end(val);
+	printf("\n");
 }
