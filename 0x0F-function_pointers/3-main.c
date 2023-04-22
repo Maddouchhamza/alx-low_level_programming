@@ -10,7 +10,6 @@
  */
 int main(int argc, char *argv[])
 {
-	printf("%d\n", argc);
 	if (argc != 4)
 	{
 		printf("Eoooooooroor\n");
