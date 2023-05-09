@@ -37,7 +37,7 @@ int main(int argc, char **argv)
 			err_exit(98, "Error: Can't read from file %s\n", argv[1]);
 		wr = write(dest, buffer, re);
 		if (wr < 0)
-			err_exit(99, "Error: can't write to %s\n", argv[2]);
+			err_exit(99, "Error: Can't write to %s\n", argv[2]);
 	}
 	if (close(src) < 0)
 	{
